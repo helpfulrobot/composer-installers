@@ -24,6 +24,7 @@ class Installer extends LibraryInstaller
         'mako'         => 'MakoInstaller',
         'mediawiki'    => 'MediaWikiInstaller',
         'phpbb'        => 'PhpBBInstaller',
+        'phpcs'        => 'PHPCSStandardInstaller',
         'ppi'          => 'PPIInstaller',
         'silverstripe' => 'SilverStripeInstaller',
         'symfony1'     => 'Symfony1Installer',
