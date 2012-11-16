@@ -13,8 +13,10 @@ class PHPCSStandardInstaller extends BaseInstaller
     public function inflectPackageVars($vars)
     {
         if (strpos($vars['name'], 'typo3') !== false) {
-            $vars['name'] = substr_replace($vars['name'], strtoupper($vars['name']), 0, 4);
-            $vars['name'] = substr_replace($vars['name'], ucwords($vars['name']), 5);
+            reg_replace_callback('/(typo3)(.*)', function($matches) {
+                     strtoupper($matches[1]);
+                     ucwords($matches[2]);
+            }, $vars['name']);
         } else {
             $vars['name'] = substr_replace($vars['name'], ucwords($vars['name']), 0);
         }
