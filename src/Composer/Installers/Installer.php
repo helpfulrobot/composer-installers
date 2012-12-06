@@ -30,7 +30,7 @@ class Installer extends LibraryInstaller
         'symfony1'     => 'Symfony1Installer',
         'wordpress'    => 'WordPressInstaller',
         'zend'         => 'ZendInstaller',
-        'typo3'   => 'TYPO3Installer'
+        'typo3'        => 'TYPO3Installer'
     );
 
     /**
