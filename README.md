@@ -19,6 +19,7 @@ package type.
 * Magento       `magento-`
 * Mako          `mako-`
 * MediaWiki     `mediawiki-`
+* PHPCSStandard `phpcsstandard-
 * phpBB         `phpbb-`
 * PPI           `ppi-`
 * SilverStripe  `silverstripe-`
