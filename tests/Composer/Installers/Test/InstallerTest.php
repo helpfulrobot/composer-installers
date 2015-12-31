@@ -208,5 +208,4 @@ class InstallerTest extends TestCase
         $result = $installer->getInstallPath($package);
         $this->assertEquals('plugins/sfPhpunitPlugin/', $result);
     }
-
 }
