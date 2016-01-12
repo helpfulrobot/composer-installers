@@ -44,7 +44,7 @@ class Installer extends LibraryInstaller
         'magento'      => 'MagentoInstaller',
         'mako'         => 'MakoInstaller',
         'mediawiki'    => 'MediaWikiInstaller',
-        'microweber'    => 'MicroweberInstaller',
+        'microweber'   => 'MicroweberInstaller',
         'modulework'   => 'MODULEWorkInstaller',
         'modxevo'      => 'MODXEvoInstaller',
         'moodle'       => 'MoodleInstaller',
@@ -70,7 +70,8 @@ class Installer extends LibraryInstaller
         'wordpress'    => 'WordPressInstaller',
         'zend'         => 'ZendInstaller',
         'zikula'       => 'ZikulaInstaller',
-        'prestashop'   => 'PrestashopInstaller'
+        'prestashop'   => 'PrestashopInstaller',
+        'kestane'      => 'KestaneInstaller'
     );
 
     /**
